@@ -1,0 +1,123 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  
+  body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  .navi {
+      border: 2px solid white;
+      height: 10vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+      padding: 0 20px;
+  }
+  
+  .navi div,
+  .navi ul li {
+      display: inline-block;
+      padding: 10px;
+      font-size: 1.2em;
+  }
+  
+  nav {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .navi ul {
+      display: flex;
+      gap: 20px;
+      padding: 0;
+  }
+  
+  .navi ul li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+  }
+  
+  .first {
+      text-align: center;
+      margin: 20px 0;
+  }
+  
+  .first span {
+      font-size: 2em;
+  }
+  
+  .first button {
+      border: 2px solid rgb(125, 189, 250);
+      border-radius: 6px;
+      height: 30px;
+      width: 200px;
+      background-color: rgb(125, 189, 250);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+  }
+  
+  .second {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+  }
+  
+  .second .big {
+      display: flex;
+      align-items: center;
+  }
+  
+  .second .small {
+      margin-left: 10px;
+  }
+  
+  .btn {
+      background: #00b6d1;
+      padding: 14px 16px;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: 700;
+      margin: 12px 0;
+      cursor: pointer;
+  }
+  
+  .btn a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  .btn.green {
+      background-color: #5cb85c;
+  }
+  
+  .item {
+      padding: 23px;
+      background: #f9f9f9;
+      border-radius: 12px;
+      font-size: 20px;
+      text-align: center;
+  }
+  
+  .item-lang {
+      font-weight: 700;
+      margin-bottom: 20px;
+  }
+  
+  .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+      padding: 20px;
+  }
